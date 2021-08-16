@@ -84,11 +84,11 @@ public class InventoryModel
         {
             if (pocket[currentID].itemGameObj == currentItem.itemGameObj)
             {
-                lSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[8];
+                lSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[11];
             }
             else
             {
-                rSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[8];
+                rSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[11];
             }
 
             btn.interactable = true;
@@ -99,11 +99,11 @@ public class InventoryModel
         {
             if (pocket[currentID].itemGameObj == currentItem.itemGameObj)
             {
-                lSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[7];
+                lSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[10];
             }
             else
             {
-                rSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[7];
+                rSlots.transform.GetChild(currentID).transform.GetComponent<Image>().sprite = spr[10];
             }
 
             btn.interactable = false;
